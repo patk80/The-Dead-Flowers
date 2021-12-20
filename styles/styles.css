@@ -1,4 +1,10 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+#header {
+  background: url("../img/the-dead-flowers-band-photo-asbury-park-beach.jpg") no-repeat center;
+  background-size: cover;
+  height: 90vh;
+}
 /*# sourceMappingURL=styles.css.map */
