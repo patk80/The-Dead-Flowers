@@ -6,6 +6,16 @@ body {
   background: #dadada;
 }
 
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 #header {
   background: url("../img/the-dead-flowers-band-photo-asbury-park-beach.jpg") no-repeat center;
   background-size: cover;
