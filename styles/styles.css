@@ -75,9 +75,16 @@ h2 {
 
 /* Footer Styles End */
 /*  Media Queries Start */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   #header {
     background-image: url("../img/the-dead-flowers-band-photo-asbury-park-beach-mobile.jpg");
+  }
+  #navbar-brand-logo {
+    margin: 0;
+  }
+  .nav-link,
+  #navbar-contact-button {
+    margin: 10px 0;
   }
   h1 {
     margin-top: 150px;
