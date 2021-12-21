@@ -1,39 +1,16 @@
-// #f7ce5a //
+/* SCSS Styles Start */
 $primary-color: #ff0000;
+/* SCSS Styles End */
 
+
+
+/* Global Styles Start */
 * {
     font-family: "Montserrat", sans-serif;
 }
 
 body {
     background: #dadada;
-}
-
-.navbar-toggler {
-    border: none;
-    outline: none;
-    &:focus {
-        box-shadow: none;
-    }
-}
-
-
-#header {
-    background: url("../img/the-dead-flowers-band-photo-asbury-park-beach.jpg") no-repeat top center;
-    background-size: cover;
-    height: 95vh;
-}
-
-h1, 
-h2 {
-    font-family: 'Vujahday Script', cursive;
-}
-
-#about-section,
-#shows-section,
-#news-section,
-#discography-section {
-    padding-top: 80px;
 }
 
 .glow {
@@ -48,10 +25,60 @@ h2 {
         0 0 151px $primary-color;
 }
 
-.carousel-item img {
-    // height: 80vh;
+h1, 
+h2 {
+    font-family: 'Vujahday Script', cursive;
 }
 
+#about-section,
+#shows-section,
+#news-section,
+#discography-section {
+    padding-top: 80px;
+}
+/* Global Styles End */
+
+
+
+/* Navbar Styles Start */
+.navbar-toggler {
+    border: none;
+    outline: none;
+    &:focus {
+        box-shadow: none;
+    }
+}
+/* Navbar Styles End */
+
+
+/* Header Styles Start */
+#header {
+    background: url("../img/the-dead-flowers-band-photo-asbury-park-beach.jpg") no-repeat top center;
+    background-size: cover;
+    height: 95vh;
+}
+/* Header Styles End */
+
+
+
+/* About Styles Start */
+.band-member-image {
+    filter: drop-shadow(0px 0px 10px $primary-color);
+}
+/* About Styles End */
+
+
+
+/* Discography Styles Start */
+.album-cover-image {
+    filter: drop-shadow(5px 5px 5px $primary-color);
+}
+/* Discography Styles End */
+
+
+
+/* Footer Styles Start */
 #footer-logo {
     height: 80px;
 }
+/* Footer Styles End */
