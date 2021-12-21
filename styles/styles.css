@@ -74,4 +74,12 @@ h2 {
 }
 
 /* Footer Styles End */
+/*  Media Queries Start */
+@media screen and (max-width: 767px) {
+  #header {
+    background-image: url("../img/the-dead-flowers-band-photo-asbury-park-beach-mobile.jpg");
+  }
+}
+
+/*  Media Queries End */
 /*# sourceMappingURL=styles.css.map */
