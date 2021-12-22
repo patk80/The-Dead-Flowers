@@ -31,6 +31,7 @@ body {
 
 a:hover {
     @include glow;
+    transition: all 0.1s;
 }
 
 h1, 
