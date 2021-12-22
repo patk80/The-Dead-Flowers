@@ -53,9 +53,23 @@ h2 {
 
 /* Header Styles Start */
 #header {
-    background: url("../assets/img/the-dead-flowers-band-photo-asbury-park-beach.jpg") no-repeat top center;
-    background-size: cover;
+    // background: url("../assets/img/the-dead-flowers-band-photo-asbury-park-beach.jpg") no-repeat top center;
+    // background-size: cover;
     height: 100vh;
+}
+
+#header-text {
+    position: relative;
+    z-index: 50;
+}
+
+#header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 /* Header Styles End */
 
@@ -109,9 +123,9 @@ h2 {
 
 /*  Media Queries Start */
 @media screen and (max-width: 992px) {
-    #header {
-        background-image: url("../assets/img/the-dead-flowers-band-photo-asbury-park-beach-mobile.jpg");
-    }
+    // #header {
+    //     background-image: url("../assets/img/the-dead-flowers-band-photo-asbury-park-beach-mobile.jpg");
+    // }
 
     #navbar-brand-logo {
         margin: 0;
