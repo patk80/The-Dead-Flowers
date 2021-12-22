@@ -66,6 +66,29 @@ h2 {
   z-index: 50;
 }
 
+@-webkit-keyframes h1FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes h1FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#the-dead-flowers-h1 {
+  -webkit-animation: h1FadeIn 8s;
+          animation: h1FadeIn 8s;
+}
+
 /* Header Styles End */
 /* About Styles Start */
 .band-member-image {

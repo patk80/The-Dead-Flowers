@@ -80,6 +80,15 @@ h2 {
     position: relative;
     z-index: 50;
 }
+
+@keyframes h1FadeIn {
+      0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#the-dead-flowers-h1 {
+    animation: h1FadeIn 8s;
+}
 /* Header Styles End */
 
 
