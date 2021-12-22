@@ -51,11 +51,6 @@ h2 {
   height: 100vh;
 }
 
-#header-text {
-  position: relative;
-  z-index: 50;
-}
-
 #header-video {
   position: absolute;
   top: 0;
@@ -64,6 +59,11 @@ h2 {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#header-text {
+  position: relative;
+  z-index: 50;
 }
 
 /* Header Styles End */
@@ -97,6 +97,10 @@ h2 {
 .album-cover-image {
   -webkit-filter: drop-shadow(5px 5px 5px #ff0000);
           filter: drop-shadow(5px 5px 5px #ff0000);
+}
+
+li::marker {
+  font-weight: bold;
 }
 
 /* Discography Styles End */
