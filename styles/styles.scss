@@ -126,6 +126,10 @@ h2 {
 #footer-logo {
     height: 80px;
 }
+
+#footer-social-icon {
+    margin: 0 20px;
+}
 /* Footer Styles End */
 
 
@@ -152,6 +156,11 @@ h2 {
 
     h1 {
         margin-top: 150px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #footer-social-icon {
+        margin: 0 10px;
     }
 }
 /*  Media Queries End */
