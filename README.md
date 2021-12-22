@@ -1,5 +1,5 @@
 # The-Dead-Flowers
-**Languages:** HTML (Bootstrap 5) / SCSS
+**Languages:** HTML (Bootstrap 5) / SCSS / JavaScript
 
 **URL:** https://patk80.github.io/The-Dead-Flowers/
 
