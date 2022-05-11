@@ -1,6 +1,7 @@
 let mobileToggleIcon = document.querySelector("#mobile-toggle-icon");
 let navLinks         = document.querySelectorAll(".nav-link");
 let navbarCollapse   = document.querySelector(".navbar-collapse");
+let copyrightDate    = document.querySelector("#copyright-date");
 // Looping through all navLinks and adding an event listener to close navbar & change icon when clicked (made for mobile) //
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
@@ -16,3 +17,5 @@ mobileToggleIcon.addEventListener("click", () => {
         mobileToggleIcon.innerHTML = '<i class="fas fa-bars"></i>'
     }
 });
+// Update Copyright Date with current year //
+copyrightDate.innerText = new Date().getFullYear();
