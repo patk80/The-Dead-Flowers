@@ -132,7 +132,7 @@ li::marker {
   height: 80px;
 }
 
-#footer-social-icon {
+.footer-social-icon {
   margin: 0 20px;
 }
 
@@ -156,7 +156,7 @@ li::marker {
 }
 
 @media screen and (max-width: 576px) {
-  #footer-social-icon {
+  .footer-social-icon {
     margin: 0 10px;
   }
 }
