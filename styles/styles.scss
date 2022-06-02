@@ -1,5 +1,7 @@
 /* SCSS Styles Start */
 $primary-color: #ff0000;
+$white: #ffffff;
+$light-gray: #bababa;
 /* SCSS Styles End */
 
 
@@ -10,14 +12,14 @@ $primary-color: #ff0000;
 }
 
 body {
-    background: #bababa;
+    background: $light-gray;
 }
 
 @mixin glow {
-    color: #ffffff;
-    text-shadow: 0 0 7px #ffffff,
-        0 0 10px #ffffff,
-        0 0 21px #ffffff,
+    color: $white;
+    text-shadow: 0 0 7px $white,
+        0 0 10px $white,
+        0 0 21px $white,
         0 0 42px $primary-color,
         0 0 82px $primary-color,
         0 0 92px $primary-color,
